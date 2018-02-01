@@ -1,0 +1,29 @@
+{
+  "name": "redis-component-cache",
+  "version": "0.1.0",
+  "description": "Nuxt module to cache components in Redis.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinLG/redis-component-cache.git"
+  },
+  "keywords": [
+    "Nuxt.js",
+    "Vue.js",
+    "Redis",
+    "Cache",
+    "SSR"
+  ],
+  "author": "Martin Le Guillou",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/MartinLG/redis-component-cache/issues"
+  },
+  "homepage": "https://github.com/MartinLG/redis-component-cache#readme",
+  "dependencies": {
+    "ioredis": "^3.2.2"
+  }
+}
