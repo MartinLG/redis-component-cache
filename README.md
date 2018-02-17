@@ -1,5 +1,5 @@
 # redis-component-cache
-(Nuxt)[https://nuxtjs.org] module to cache components in Redis.
+[Nuxt](https://nuxtjs.org) module to cache components in Redis.
 
 > **Disclaimer**: This module does't not work yet, because of an issue in VueJS SSR: https://github.com/vuejs/vue/issues/7595.
 
@@ -45,10 +45,10 @@ yarn add redis-component-cache
 }
 ```
 
-This module uses (ioredis)[https://github.com/luin/ioredis], and is compatible with all the ioredis connection modes (TLS, sentinel...).
+This module uses [ioredis](https://github.com/luin/ioredis), and is compatible with all the ioredis connection modes (TLS, sentinel...).
 
 This means, the ```redis``` module option takes the same parameters as the ```ioredis``` object.
-Follow the (ioredis connection documentation)[https://github.com/luin/ioredis#connect-to-redis] to know more about the possible options.
+Follow the [ioredis connection documentation](https://github.com/luin/ioredis#connect-to-redis) to know more about the possible options.
 
 ## Cache a component
 
@@ -75,7 +75,7 @@ export default {
 </script>
 ```
 
-Follow the (Vue.js SSR Component Level Caching documentation)[https://ssr.vuejs.org/en/caching.html#component-level-caching] for more informations about when cacheing your components.
+Follow the [Vue.js SSR Component Level Caching documentation](https://ssr.vuejs.org/en/caching.html#component-level-caching) for more informations about when cacheing your components.
 
 Don't forget that this Redis cache is an external cache and is not reset when you deploy your application.
 I will soon add a suffix option to the module, to be able to generate a new cache when the application is updated.
